@@ -75,12 +75,9 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-400">
               &copy; {currentYear} {personalInfo.name}. All rights reserved.
-            </p>
-            <p className="text-sm text-gray-400 flex items-center">
-              Made with <Heart className="w-4 h-4 mx-1 text-red-500 fill-current" /> using MERN Stack
             </p>
           </div>
         </div>
