@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Download, Github, Linkedin } from 'lucide-react';
-import { personalInfo } from '../data/constants';
+import { personalInfo } from '../data/constants.js';
 
 const Home = () => {
   const containerVariants = {

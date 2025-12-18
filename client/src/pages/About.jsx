@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Award, Briefcase, GraduationCap, Code2 } from 'lucide-react';
-import { personalInfo, skills, experience, education, certifications } from '../data/constants';
+import { personalInfo, skills, experience, education, certifications } from '../data/constants.js';
 
 const About = () => {
   const containerVariants = {

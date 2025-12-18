@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, Github, Linkedin } from 'lucide-react';
 import { contactAPI } from '../services/api';
-import { personalInfo } from '../data/constants';
+import { personalInfo } from '../data/constants.js';
 import { isValidEmail } from '../utils/helpers';
 import toast from 'react-hot-toast';
 
