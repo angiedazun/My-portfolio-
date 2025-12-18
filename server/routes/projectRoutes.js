@@ -1,0 +1,23 @@
+import express from 'express';
+import {
+  getAllProjects,
+  getProjectById,
+  createProject,
+  updateProject,
+  deleteProject,
+  getAllTags,
+} from '../controllers/projectController.js';
+
+const router = express.Router();
+
+// Get all unique tech stack tags
+router.get('/tags/all', getAllTags);
+
+// CRUD routes for projects
+router.get('/', getAllProjects);
+router.get('/:id', getProjectById);
+router.post('/', createProject);
+router.put('/:id', updateProject);
+router.delete('/:id', deleteProject);
+
+export default router;
